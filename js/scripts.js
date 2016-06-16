@@ -13,12 +13,12 @@ $(document).ready(function() {
   return item.toUpperCase();
   });
 
-  ("ul#shoppingcart").show();
-  (".first").text(UpperItem[0]);
-  (".second").text(UpperItem[1]);
-  (".third").text(UpperItem[2]);
-  (".fourth").text(UpperItem[3]);
-  (".fifth").text(UpperItem[4]);
+  $("ul#shoppingcart").show();
+  $(".first").text(upperItems[0]);
+  $(".second").text(upperItems[1]);
+  $(".third").text(upperItems[2]);
+  $(".fourth").text(upperItems[3]);
+  $(".fifth").text(upperItems[4]);
 
   $("#groceries").hide();
 
